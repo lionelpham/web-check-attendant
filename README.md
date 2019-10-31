@@ -1,2 +1,2 @@
-# https://webcheckattendant.herokuapp.com//
+# https://webcheckattendant.herokuapp.com
 Test account: parkhangseo - korea

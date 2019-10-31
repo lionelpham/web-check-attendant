@@ -19,18 +19,13 @@ import { EditScheduleModalComponent } from './components/edit-schedule-modal/edi
 export { EditScheduleModalComponent };
 import { ResultMessageModalComponent } from './components/result-message-modal/result-message-modal.component';
 export { ResultMessageModalComponent };
-import { ImportModalComponent } from './components/import-modal/import-modal.component';
-export { ImportModalComponent };
-import { ExportModalComponent } from './components/export-modal/export-modal.component';
-export { ExportModalComponent };
 import { CreateAbsenceRequestModalComponent } from './components/create-absence-request-modal/create-absence-request-modal.component';
 export { CreateAbsenceRequestModalComponent };
 import { SendFeedbackModalComponent } from './components/send-feedback-modal/send-feedback-modal.component';
 export { SendFeedbackModalComponent };
 import { QRCodeComponent } from './components/qr-code.component';
 export { QRCodeComponent };
-import { QuizDisplayComponent } from './components/quiz-display/quiz-display.component';
-export { QuizDisplayComponent };
+
 import {AppService} from './services/app.service';
 export {AppService};
 import {CourseService} from './services/courses.service';
@@ -67,6 +62,13 @@ import {ProgramsService} from './services/programs.service';
 export {ProgramsService};
 import {NotificationService} from './services/notification.service';
 export {NotificationService};
+
+import { ImportModalComponent } from './components/import-modal/import-modal.component';
+export { ImportModalComponent };
+import { ExportModalComponent } from './components/export-modal/export-modal.component';
+export { ExportModalComponent };
+import { QuizDisplayComponent } from './components/quiz-display/quiz-display.component';
+export { QuizDisplayComponent };
 /**
  * Do not specify providers for modules that might be imported by a lazy loaded module.
  */
